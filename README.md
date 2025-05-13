@@ -1,3 +1,4 @@
+# Lorenzo Marzola Begnozzi 23067179-2
 # Sistema SOA: Análise de Tendência de Nomes no Brasil 🇧🇷
 
 Este projeto tem como objetivo desenvolver um sistema orientado a serviços (SOA) que consome a API de Nomes do IBGE para analisar tendências de nomes próprios no Brasil, ao longo das décadas.
