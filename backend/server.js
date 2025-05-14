@@ -6,7 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// 1. Ranking de um nome em décadas
 app.get('/nome/:nome', async (req, res) => {
   const { nome } = req.params;
   try {
@@ -17,7 +16,6 @@ app.get('/nome/:nome', async (req, res) => {
   }
 });
 
-// 2. Nomes mais frequentes por localidade
 app.get('/localidade/:uf', async (req, res) => {
   const { uf } = req.params;
   try {
@@ -28,7 +26,6 @@ app.get('/localidade/:uf', async (req, res) => {
   }
 });
 
-// 3. Comparar dois nomes nacionalmente
 app.get('/comparar', async (req, res) => {
   const { nome1, nome2 } = req.query;
   try {

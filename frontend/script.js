@@ -23,7 +23,6 @@ async function buscarEvolucaoNome() {
     });
 }
 
-// 2. Top nomes por UF
 async function buscarTopNomesUF() {
     const uf = document.getElementById('uf').value;
     const res = await fetch(`${backendUrl}/localidade/${uf}`);
@@ -42,7 +41,6 @@ async function buscarTopNomesUF() {
     });
 }
 
-// 3. Comparar nomes
 async function compararNomes() {
     const nome1 = document.getElementById('nome1').value;
     const nome2 = document.getElementById('nome2').value;
