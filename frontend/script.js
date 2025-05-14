@@ -1,6 +1,5 @@
 const backendUrl = 'http://localhost:3000';
 
-// 1. Evolução de um nome
 async function buscarEvolucaoNome() {
     const nome = document.getElementById('nome').value;
     const res = await fetch(`${backendUrl}/nome/${nome}`);
