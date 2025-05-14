@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+h1, h2 {
+  color: #333;
+}
+input {
+  margin: 5px;
+  padding: 5px;
+}
+canvas {
+  max-width: 600px;
+  margin-top: 10px;
+}
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 60%;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Análise de Tendência de Nomes</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🔍 Tendência de Nomes no Brasil</h1>
+
+  <section>
+    <h2>1️⃣ Evolução de um Nome</h2>
+    <input id="nome" placeholder="Digite um nome" />
+    <button onclick="buscarEvolucaoNome()">Buscar</button>
+    <canvas id="graficoNome"></canvas>
+  </section>
+
+  <section>
+    <h2>2️⃣ Top 3 Nomes por UF</h2>
+    <input id="uf" placeholder="Digite o código da UF (ex: 35 para SP)" />
+    <button onclick="buscarTopNomesUF()">Buscar</button>
+    <table id="tabelaNomes"></table>
+  </section>
+
+  <section>
+    <h2>3️⃣ Comparar Dois Nomes</h2>
+    <input id="nome1" placeholder="Primeiro nome" />
+    <input id="nome2" placeholder="Segundo nome" />
+    <button onclick="compararNomes()">Comparar</button>
+    <canvas id="graficoComparacao"></canvas>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
